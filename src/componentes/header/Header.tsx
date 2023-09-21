@@ -19,10 +19,6 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link texto="Home" />
-            <Link texto="imagenes" />
-          </li>
-          <li>
             <Link texto="Sobre" />
           </li>
           <li>
