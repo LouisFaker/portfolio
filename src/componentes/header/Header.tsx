@@ -9,7 +9,7 @@ export default function Header() {
       <div className="logo">
         <img
           // src={logo}  // em vez referenciar diretamente a imagem a pasta public, devemos realizar a mesma usando a propiedade "import ... from ".
-          src= "/logo-barbie.png"  // em vez referenciar diretamente a imagem a pasta public, devemos realizar a mesma usando a propiedade "import ... from ".
+          src= "/logo-luis.png"  // em vez referenciar diretamente a imagem a pasta public, devemos realizar a mesma usando a propiedade "import ... from ".
           //porque chaves, devido ao JSX, sendo assim faça o uso das mesmas e apos isso adicionar o nome da variavel da logo importada anteriormente.
           // alt="Logo da Barbie"
           className="logo-img"

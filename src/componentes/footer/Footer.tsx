@@ -29,14 +29,14 @@ function Footer() {
         </ul>
 
         <div className="socials">
-          <a href="https://www.instagram.com/louis._.airlines/" target="_blank">
+          <a href="https://www.instagram.com/luis.enrique.tapia/" target="_blank">
             <i className="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://twitter.com/louis_airlines" target="_blank">
+          <a href="https://twitter.com/Luis_Enrique_CT" target="_blank">
             <i className="fa-brands fa-twitter"></i>
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=100082210016307"
+            href="https://www.facebook.com/profile.php?id=100093713913694"
             target="_blank"
           >
             <i className="fa-brands fa-facebook-f"></i>
@@ -56,7 +56,7 @@ function Footer() {
             <p>España</p>
             <img src="/espana.png" alt="" className="logo2" />
           </div>
-          <p>&copy; 2023 Barbie Airlines</p>
+          <p>&copy; 2023 Luis Enrique</p>
         </div>
       </div>
     </footer>
