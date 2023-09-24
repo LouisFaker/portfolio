@@ -14,7 +14,7 @@ export default function Header() {
           <Link texto="Home" url="https://portfolio-louisfaker.vercel.app/" />
           </li>
           <li>
-          <Link texto="Contacto" url="https://wa.me/5567996718791" />
+          <Link texto="Contactos" url="https://wa.me/5567996718791" />
           </li>
           <li>
           <Link texto="LinkedIn" url="https://www.linkedin.com/in/luis-enrique-174018273/" />
