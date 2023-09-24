@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Filme from './../filme/Filme'
+import Projeto from './../projeto/Projeto'
 import './Main.css'
-type FilmeType = {
+type ProjetoType = {
     id:number,
     titulo:string,
     sinopse:string,
@@ -9,32 +9,29 @@ type FilmeType = {
 }
 
 export default function Main() {
-    //let textodigitado = 'Barbie'
-    //Hooks são funções do React que ajudam a gente a fazer tarefas
-    //específicas
     const [texto,setTexto]=useState("")
 
-    const filmes:FilmeType[] = [
+    const projetos:ProjetoType[] = [
         {
             id:1,
-            titulo:'Barbie',
-            sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-            imagem:'/barbie.png'
+            titulo:'Louis Airlines',
+            sinopse:"Proyecto de una página de aviación realizado en NODE con EJS para la asignatura Sever-Side Programming por la profesora Tabatta de Souza Izael",
+            imagem:'/louis-airlines.png'
         },
         {
             id:2,
-            titulo:'Filme Barbie',
+            titulo:'projeto Barbie',
             sinopse:'Depois de ser expulsa da Barbieland por ser.',
             imagem:'/KEN.png'
         },
         {
             id:3,
-            titulo:'Filme Barbie',
+            titulo:'projeto Barbie',
             sinopse:'Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.',
             imagem:'/boneca.jpg'
         },
         {
-            id:5,
+            id:4,
             titulo:'Barbie',
             sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
             imagem:'/barbie.png'
@@ -59,16 +56,16 @@ export default function Main() {
             </div>
             <main className="content-main">
                 {/* 
-                    Use algo do vetor para tentar criar os filmes 
+                    Use algo do vetor para tentar criar os projetos 
                 */}
                 {
-                    filmes.filter((filme)=>filme.titulo.toLowerCase().includes(texto.toLowerCase())).map(
-                        (filme)=>
-                            <Filme 
-                                key={filme.id}
-                                sinopse={filme.sinopse}
-                                titulo={filme.titulo}
-                                imagem={filme.imagem}
+                    projetos.filter((projeto)=>projeto.titulo.toLowerCase().includes(texto.toLowerCase())).map(
+                        (projeto)=>
+                            <Projeto 
+                                key={projeto.id}
+                                sinopse={projeto.sinopse}
+                                titulo={projeto.titulo}
+                                imagem={projeto.imagem}
                             />
                     )
                 }
