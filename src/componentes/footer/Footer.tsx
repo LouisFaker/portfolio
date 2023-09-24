@@ -6,29 +6,23 @@ function Footer() {
       <div className="footer-content">
         <img src="/espana.png" alt="" className="logo" />
         <ul className="footer-menu">
-          <p>Empresa</p>
-          <li className="footer-menu-item">Sobre</li>
-          <li className="footer-menu-item">Empleos</li>
-          <li className="footer-menu-item">For the record</li>
+          <p>Contactos</p>
+          <li className="footer-menu-item">luisenriquechambitapia@gmail.com</li>
+          <li className="footer-menu-item">+34 602 40 68 14</li>
+          <li className="footer-menu-item">+55 (67) 99671 8791</li>
         </ul>
 
         <ul className="footer-menu">
-          <p>Lugares para viajar</p>
-          <li className="footer-menu-item">Viaje junto a Barbie Dreamhousev2</li>
-          <li className="footer-menu-item">Para Usted</li>
-          <li className="footer-menu-item">Lineas Aereas</li>
-          <li className="footer-menu-item">Marcas</li>
-          <li className="footer-menu-item">Fornecedores</li>
-        </ul>
-
-        <ul className="footer-menu">
-          <p>Compra Segura</p>
-          <li className="footer-menu-item">Soporte</li>
-          <li className="footer-menu-item">Terminos y condiciones</li>
-          <li className="footer-menu-item">App movil gratis</li>
+          <p>Mapa del sitio</p>
+          <li className="footer-menu-item">Home</li>
+          <li className="footer-menu-item">Contactos </li>
+          <li className="footer-menu-item">LinkedIn </li>
         </ul>
 
         <div className="socials">
+          <a href="https://github.com/LouisFaker" target="_blank">
+            <i className="fa-brands fa-github"></i>
+          </a>
           <a href="https://www.instagram.com/luis.enrique.tapia/" target="_blank">
             <i className="fa-brands fa-instagram"></i>
           </a>
@@ -44,19 +38,9 @@ function Footer() {
         </div>
       </div>
       <div className="footer-info">
-        <ul className="footer-info-items">
-          <li className="footer-info-item">Nuestra Historia</li>
-          <li className="footer-info-item">Centro de Privacidad</li>
-          <li className="footer-info-item">Política de privacidad</li>
-          <li className="footer-info-item">Cookies</li>
-          <li className="footer-info-item">Inversores</li>
-        </ul>
         <div className="rights">
-          <div className="country">
-            <p>España</p>
-            <img src="/espana.png" alt="" className="logo2" />
-          </div>
-          <p>&copy; 2023 Luis Enrique</p>
+        <img src="/espana.png" alt="" className="logo-footer" />
+          <p>Luis Enrique &copy; 2023 Todos los derechos reservados</p>
         </div>
       </div>
     </footer>
