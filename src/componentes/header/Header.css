@@ -28,6 +28,7 @@ header ul li a {
 }
   
 .logo-img {
+    display: flex;
     width: 13em;
     margin-right: 10px;
 }

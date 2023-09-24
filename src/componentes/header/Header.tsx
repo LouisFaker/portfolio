@@ -1,30 +1,24 @@
 import Link from "../link/link";
 import "./Header.css";
-// import logo from "/logo-barbie.png" 
-// import Link from './../link/link';
 
 export default function Header() {
   return (
     <header>
       <div className="logo">
-        <img
-          // src={logo}  // em vez referenciar diretamente a imagem a pasta public, devemos realizar a mesma usando a propiedade "import ... from ".
-          src= "/logo-luis.png"  // em vez referenciar diretamente a imagem a pasta public, devemos realizar a mesma usando a propiedade "import ... from ".
-          //porque chaves, devido ao JSX, sendo assim faça o uso das mesmas e apos isso adicionar o nome da variavel da logo importada anteriormente.
-          // alt="Logo da Barbie"
-          className="logo-img"
-        />
+        <img src="/logo-luis.png" className="logo-img" alt="Logo" />
         <span className="logo-text">ㅤ</span>
       </div>
       <nav>
         <ul>
           <li>
-            <Link texto="Sobre" />
+          <Link texto="Home" url="https://portfolio-louisfaker.vercel.app/" />
           </li>
           <li>
-            <Link texto="Contacto" />
+          <Link texto="Contacto" url="https://wa.me/5567996718791" />
           </li>
-          <li></li>
+          <li>
+          <Link texto="LinkedIn" url="https://www.linkedin.com/in/luis-enrique-174018273/" />
+          </li>
         </ul>
       </nav>
     </header>
