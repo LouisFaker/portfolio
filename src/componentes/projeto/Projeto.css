@@ -8,7 +8,7 @@
     /* esta aqui e a transicao do "projeto-content" */
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1.5s ease, transform 1.5s ease;
 }
 
 /* Quando "projeto-content" estiver invisivel, e feito transicao para que se torne visivel */
