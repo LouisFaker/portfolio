@@ -1,25 +1,69 @@
-.content-main{
-    display: flex;
-    gap: 15px;
-    padding: 15px 100px;
-    flex-wrap: wrap;
-    justify-content: center;
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     background: #f6f6f6;
 }
-.campo_pesquisa{
-    padding: 15px 100px;
-    background: #f6f6f6;
+
+.campo_pesquisa {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.botao_pesquisa{
-    height: 30px;
-    border: 1px solid #f0f0f0;
+  
+.botao_pesquisa {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background: #fff;
     border-radius: 5px;
-
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
 }
+  
 .botao_pesquisa:focus {
-    outline: 1px solid rgb(138, 157, 255);  
-   }
-.botao_pesquisa.visited {
-    outline: 1px solid rgb(138, 157, 255);   
+    outline: none;
+    border: 1px solid rgb(138, 157, 255);
 }
-
+  
+/*conteúdo principal */
+.content-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background: #f6f6f6;
+    justify-content: center; 
+    align-items: flex-start; /* Alinhando os projetos ao topo verticalmente */
+    min-height: calc(100vh - 200px); /* Definindo altura mínima da seção dos projetos */
+} 
+/* Estilização da seção "Sobre Mim" */
+.sobre-mim {
+    max-width: 800px; /* Define a largura máxima da seção */
+    margin: 0 auto; /* Centraliza a seção na página */
+    text-align: justify; /* Justifica o texto dentro da seção */
+    padding: 20px; /* Adiciona um espaçamento interno à seção */
+    font-size: 16px; /* Define o tamanho da fonte do texto */
+    line-height: 1.5; /* Define o espaçamento entre as linhas do texto */
+    color: #333; /* Define a cor do texto */
+}
+  
+/* Estilização do título da seção */
+.sobre-mim h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+  
+/* Estilização dos parágrafos dentro da seção */
+.sobre-mim p {
+    margin-bottom: 15px; /* Adiciona um espaçamento inferior aos parágrafos */
+    color: rgb(133, 133, 133);
+    font-size: 1.2rem;
+}
+  
+.projetos-container {
+    display: flex;
+    flex-direction: column; /* Coluna para que os projetos fiquem um abaixo do outro */
+    align-items: center; /* Centralize horizontalmente os projetos */
+    gap: 20px; /* Espaçamento entre os projetos */
+}
