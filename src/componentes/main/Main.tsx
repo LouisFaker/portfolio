@@ -22,7 +22,7 @@ export default function Main() {
             descricao: "Proyecto de una página de aviación realizado en NODE con EJS para la asignatura Sever-Side Programming por la profesora Tabatta de Souza Izael",
             imagem: '/louis-airlines.png',
             links: [
-                { nome: 'página web', url: 'https://louis-airlines.luisenrique20.repl.co/' },
+                { nome: 'Página web', url: 'https://louis-airlines.luisenrique20.repl.co/' },
                 { nome: 'Replit', url: 'https://replit.com/@LuisEnrique20/Louis-Airlines' }
             ]
         },
@@ -32,7 +32,7 @@ export default function Main() {
             descricao: 'Proyecto de una página que replica Netflix realizado en NODE y Javascript para la asignatura Sever-Side Programming por la profesora Tabatta de Souza Izael.',
             imagem: '/netflix-com-node.png',
             links: [
-                { nome: 'página web', url: 'https://exemplo.com/site-principal' },
+                { nome: 'Página web', url: 'https://exemplo.com/site-principal' },
                 { nome: 'Codigo del Proyecto en Replit', url: 'https://replit.com/@LuisEnrique20/projeto-netflix-com-node' }
             ]
         },
@@ -42,7 +42,7 @@ export default function Main() {
             descricao: "Proyecto desarrollado en la asignatura Frameworks 2 por el profesor Guilherme Figueiredo Terenciani 'El Terere' con la tematica inspirada en la pelicula de Barbie de este año.",
             imagem: '/barbie-dreamhousev2.png',
             links: [
-                { nome: 'Site', url: 'https://barbie-dreamhousev2.vercel.app/' },
+                { nome: 'Página web', url: 'https://barbie-dreamhousev2.vercel.app/' },
                 { nome: 'GitHub', url: 'https://github.com/LouisFaker/BarbieDreamhousev2' }
             ]
         },
