@@ -52,16 +52,19 @@
   }
   
   #footer .footer-content .footer-menu .footer-menu-item {
+    display: flex;
     margin: 25px 0;
     transition: all 500ms ease;
   }
   
   #footer .footer-content .footer-menu .footer-menu-item:hover {
+    display: flex;
     color: #1ed760;
     cursor: pointer;
   }
   
   #footer .footer-content .footer-menu p {
+    display: flex;
     font-weight: bold;
     text-transform: uppercase;
     color:#1ed760;
@@ -93,8 +96,12 @@
   .socials {
     display: flex;
   }
-  
+  .socials a { /*para não ficar com cor azul link na logo do footer*/
+    display: flex;
+    text-decoration: none;
+  }
   .socials i {
+    display: flex;
     margin: 0 20px;
     font-size: 1.7rem;
     transition: all 500ms ease;
@@ -102,6 +109,7 @@
   }
   
   .socials i:hover {
+    display: flex;
     color: #1ed760;
     cursor: pointer;
   }
