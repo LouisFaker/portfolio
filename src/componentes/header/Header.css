@@ -13,14 +13,14 @@ header ul {
     gap: 15px;
 }
 header ul :hover{
-  color: #1ed760;
+  color: #fe391b;
   cursor: pointer;
 }
 header ul li a {
     padding: 15px;
     text-decoration: none;
     color: white;
-    border: 1px solid #1ed760;
+    border: 1px solid #fe391b;
     transition: all 500ms ease;
 }
   

@@ -59,7 +59,7 @@
   
   #footer .footer-content .footer-menu .footer-menu-item:hover {
     display: flex;
-    color: #1ed760;
+    color: #fe391b;
     cursor: pointer;
   }
   
@@ -67,7 +67,7 @@
     display: flex;
     font-weight: bold;
     text-transform: uppercase;
-    color:#1ed760;
+    color:#fe391b;
     font-size: 0.8rem;
     white-space: nowrap;
   }
@@ -110,7 +110,7 @@
   
   .socials i:hover {
     display: flex;
-    color: #1ed760;
+    color: #fe391b;
     cursor: pointer;
   }
   /* abs */
