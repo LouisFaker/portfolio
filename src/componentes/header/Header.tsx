@@ -11,13 +11,16 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-          <Link texto="Home" url="https://portfolio-louisfaker.vercel.app/" />
+            <Link texto="Home" url="/" />
           </li>
           <li>
-          <Link texto="Contactos" url="https://wa.me/5567996718791" />
+            <Link texto="Contactos" url="/contato" />
           </li>
           <li>
-          <Link texto="LinkedIn" url="https://www.linkedin.com/in/luis-enrique-174018273/" />
+            <Link
+              texto="Sobre"
+              url="/sobre"
+            />
           </li>
         </ul>
       </nav>
