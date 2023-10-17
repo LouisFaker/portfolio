@@ -1,4 +1,5 @@
 import "./Footer.css";
+import LinkNav from "../../routes/linknav/LinkNav";
 
 function Footer() {
   return (
@@ -14,9 +15,15 @@ function Footer() {
 
         <ul className="footer-menu">
           <p>Mapa del sitio</p>
-          <li className="footer-menu-item">Home</li>
-          <li className="footer-menu-item">Contactos </li>
-          <li className="footer-menu-item">LinkedIn </li>
+          <li className="footer-menu-item">
+          <LinkNav texto ="Home" url="/"/>
+          </li>
+          <li className="footer-menu-item">
+          <LinkNav texto ="Contatos" url="/contato"/>
+          </li>
+          <li className="footer-menu-item">
+          <LinkNav texto ="Sobre" url="/sobre"/>
+          </li>
         </ul>
 
         <div className="socials">

@@ -1,7 +1,7 @@
 // Main.tsx
 
 import { useState } from 'react'
-import Projeto from './../projeto/Projeto'
+import Projeto from '../../routes/projeto/Projeto'
 import './Main.css'
 
 type ProjetoType = {

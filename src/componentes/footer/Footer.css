@@ -56,8 +56,19 @@
     margin: 25px 0;
     transition: all 500ms ease;
   }
+  #footer .footer-content .footer-menu .footer-menu-item a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    transition: all 500ms ease;
+  }
   
   #footer .footer-content .footer-menu .footer-menu-item:hover {
+    display: flex;
+    color: #fe391b;
+    cursor: pointer;
+  }
+  #footer .footer-content .footer-menu .footer-menu-item:hover a{
     display: flex;
     color: #fe391b;
     cursor: pointer;
