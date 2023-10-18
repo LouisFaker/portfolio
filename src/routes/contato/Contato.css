@@ -105,3 +105,34 @@ button.btn-primary a {
 button.btn-primary a:hover {
   color: #fe391b;
 }
+
+/* caixa de opções */
+/* No seu arquivo "Contato.css" ou CSS principal */
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(25, 20, 20);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+}
+
+.box select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilização adicional para a seta do select */
+.box select::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
