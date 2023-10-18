@@ -1,4 +1,4 @@
-import Link from "../link/link";
+import LinkNav from "../../routes/linknav/LinkNav";
 import "./Header.css";
 
 export default function Header() {
@@ -11,13 +11,13 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link texto="Home" url="/" />
+            <LinkNav texto="Home" url="/" />
           </li>
           <li>
-            <Link texto="Contactos" url="/contato" />
+            <LinkNav texto="Contactos" url="/contato" />
           </li>
           <li>
-            <Link
+            <LinkNav
               texto="Sobre"
               url="/sobre"
             />
