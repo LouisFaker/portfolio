@@ -2,9 +2,11 @@ import "./Contato.css";
 
 export default function Main() {
   return (
-    <main className="content-main">
-            <h1>Hable con nosotros</h1>
-            <h2>Conpleta tus informaciones</h2>
+    <main className="contenido-main">
+      <div className="titulo">
+        <h1>Hable con nosotros</h1>
+        <h2>Conpleta tus informaciones</h2>
+      </div>
             <form>
               <fieldset className="grupo">
 
@@ -18,11 +20,14 @@ export default function Main() {
               </fieldset>
 
               <div className="campo">
-                    <label htmlFor="¿Por dónde se enteró de mi Portafolio?"><strong> ¿Por dónde se enteró de mi Portafolio? </strong></label>
-                    <label>
-                    <input type="radio" name="elección" value="Redes Sociales"/>Amigos
-                        <input type="radio" name="elección" value="Amigos"/>Familiares
-                        <input type="radio" name="elección" value="Familiares"/>Redes Sociales
+                    <label htmlFor="¿Por dónde se enteró de mi Portafolio?"><strong className="question-box"> ¿Por dónde se enteró de mi Portafolio? </strong></label>
+                    <label className="box">
+                    <select id="Selecione el pais en que estara conprando la pasaje">
+                        <option selected disabled value="">Seleccione</option>
+                        <option>Familiares</option>
+                        <option>Amigos</option>
+                        <option>Redes Sociales</option>
+                    </select>
                     </label>
               </div>
 

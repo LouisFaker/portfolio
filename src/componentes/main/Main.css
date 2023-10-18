@@ -1,3 +1,4 @@
+
 .main-container {
     display: flex;
     max-width: 800px;
@@ -10,6 +11,10 @@
     text-align: center;
     margin-bottom: 20px;
 }
+.campo_pesquisa p{
+    display: flex;
+    margin-left: 10px;
+}
   
 .botao_pesquisa {
     height: 40px;
@@ -17,7 +22,7 @@
     border: none;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
     transition: all 500ms ease;
 }
@@ -39,6 +44,7 @@
     align-items: flex-start; /* Alinhando os projetos ao topo verticalmente */
     min-height: calc(100vh - 200px); /* Definindo altura mínima da seção dos projetos */
 } 
+
 /* Estilização da seção "Sobre Mim" */
 .sobre-mim {
     max-width: 800px; /* Define a largura máxima da seção */
