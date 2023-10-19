@@ -49,9 +49,9 @@ export default function Main() {
                     </label>
               </div>
 
-            <button className="btn-primary" type="submit"><a>ENTRE EN CONTACTO CONMIGO AHORA</a></button>
             </form>
 
+            <button className="btn-primary" type="submit"><a>ENTRE EN CONTACTO CONMIGO AHORA</a></button>
             {formulario.nombre && formulario.apellido && formulario.email && formulario.fuente &&(
             <div>
               <h3>Informações do Formulário:</h3>
