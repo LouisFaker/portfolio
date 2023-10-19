@@ -4,16 +4,16 @@ export default function Main() {
   return (
     <main className="contenido-main">
       <div className="titulo">
-        <h1>Hable con nosotros</h1>
+        <h1>Entre en contacto conmigo</h1>
         <h2>Conpleta tus informaciones</h2>
       </div>
             <form>
               <fieldset className="grupo">
 
-              <label htmlFor="nombre"><strong> Nome </strong></label>
+              <label htmlFor="nombre"><strong> Nombre </strong></label>
               <input type="text" name="nombre" id="nombre" required/>
 
-              <label htmlFor="apellido"><strong> Sobrenome </strong></label>
+              <label htmlFor="apellido"><strong> Apellido </strong></label>
               <input type="text" name="apellido" id="apellido" required/>
               <label htmlFor="email"><strong> Email </strong></label>
               <input type="email" name="email" id="email" required/>
@@ -32,7 +32,7 @@ export default function Main() {
               </div>
 
             </form>
-            <button className="btn-primary" type="submit"><a>HABLE CON NOSOTROS AHORA</a></button>
+            <button className="btn-primary" type="submit"><a>ENTRE EN CONTACTO CONMIGO AHORA</a></button>
 </main>
   );
 }
