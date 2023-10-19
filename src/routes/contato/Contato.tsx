@@ -1,6 +1,24 @@
+import { useState } from 'react'
 import "./Contato.css";
 
 export default function Main() {
+  const [formulario, setFormulario] = useState({
+    nombre: '',
+    apellido: '',
+    email: '',
+    fuente: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormulario({ ...formulario, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formulario);
+  };
+
   return (
     <main className="contenido-main">
       <div className="titulo">
@@ -11,7 +29,7 @@ export default function Main() {
               <fieldset className="grupo">
 
               <label htmlFor="nombre"><strong> Nombre </strong></label>
-              <input type="text" name="nombre" id="nombre" required/>
+              <input type="text" name="nombre" id="nombre" required onChange={handleChange} value={formulario.nombre}/>
 
               <label htmlFor="apellido"><strong> Apellido </strong></label>
               <input type="text" name="apellido" id="apellido" required/>
@@ -33,6 +51,14 @@ export default function Main() {
 
             </form>
             <button className="btn-primary" type="submit"><a>ENTRE EN CONTACTO CONMIGO AHORA</a></button>
+
+      <div>
+        <h3>Informações do Formulário:</h3>
+        <p>Nombre: {formulario.nombre}</p>
+        <p>Apellido: {formulario.apellido}</p>
+        <p>Email: {formulario.email}</p>
+        <p>Fuente: {formulario.fuente}</p>
+      </div>
 </main>
   );
 }
