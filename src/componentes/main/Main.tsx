@@ -32,7 +32,7 @@ export default function Main() {
             descricao: 'Proyecto de una página que replica Netflix realizado en NODE y Javascript para la asignatura Sever-Side Programming por la profesora Tabatta de Souza Izael.',
             imagem: '/netflix-com-node.png',
             links: [
-                { nome: 'Página web', url: 'https://exemplo.com/site-principal' },
+                { nome: 'Página web', url: 'https://projeto-netflix-com-node--luisenrique20.repl.co/' },
                 { nome: 'Codigo del Proyecto en Replit', url: 'https://replit.com/@LuisEnrique20/projeto-netflix-com-node' }
             ]
         },
